@@ -67,8 +67,32 @@ hr{
     margin-bottom: 30px;
 }
 #back{
+    display: inline-block;
     align-self: center;
     border-style: groove;
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+#back:hover{
+    display: inline-block;
+    align-self: center;
+    border-style:double;
+    border-color: red;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding-top: 14px;
+    padding-left: 28px;
+    padding-bottom: 14px;
+    padding-right: 28px;
+}
+#backdiv{
     text-align: center;
-    margin:80px;
+    margin-top: 50px;
+
 }
